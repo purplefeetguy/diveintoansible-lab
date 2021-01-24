@@ -151,3 +151,8 @@ docker-compose rm
 ```
 
 ![DiveIntoAnsible Cover](DiveIntoAnsible_Cover.png?raw=true "Dive Into Ansible")
+
+
+<!-- for user in ansible root; do for os in ubuntu centos; do for instance in 1 2 3; do sshpass -f password.txt ssh-copy-id -o StrictHostKeyChecking=no ${user}@${os}${instance}; done; done; done -->
+
+<!-- ansible -i,ubuntu1,ubuntu2,ubuntu3,centos1,centos2,centos3 all -m ping -->
